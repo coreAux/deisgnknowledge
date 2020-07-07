@@ -54,3 +54,20 @@ footer {
 footer img {
   cursor: pointer;
 }
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+    text-indent: -0.4em;
+    margin: 0 0 16px;
+  }
+
+  h1.long {
+    font-size: 24px;
+  }
+
+  h1,
+  p {
+    width: 240px;
+  }
+}
